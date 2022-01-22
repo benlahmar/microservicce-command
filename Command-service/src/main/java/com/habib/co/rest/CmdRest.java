@@ -49,6 +49,7 @@ public class CmdRest {
 			for (Composant cp : cps) {
 				cp.setProduit(remoteprd.getprd(cp.getIdproduit()));
 			}
+			
 		}
 		return cs;
 	}
